@@ -1,9 +1,11 @@
 # tetsudocom-blogrank-crawler
 
 ## Summary / 概要
-鉄道コムにログインし、鉄道ブログランキングをJSON形式のファイルで同じディレクトリに出力します。
-
+鉄道コムにログインし、鉄道ブログランキングをJSON形式のファイルで同じディレクトリに出力します。  
 Log in to tetsudo.com and get blog ranking data. This program will create an JSON file.
+
+このプログラムは[Apache License 2.0](LICENSE)の定める範囲でご自由にご利用いただけます。  
+必ずライセンスをお読みいただき、ぜひご利用ください。
 
 ## Usage / 使用方法
 1. [getTetsudoComRank.php](getTetsudoComRank.php)を開き、お使いの鉄道コムへのログイン情報を入力してください。
