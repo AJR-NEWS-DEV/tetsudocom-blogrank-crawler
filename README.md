@@ -11,7 +11,7 @@ Log in to tetsudo.com and get blog ranking data. This program will create an JSO
 1. [getTetsudoComRank.php](getTetsudoComRank.php)を開き、お使いの鉄道コムへのログイン情報を入力してください。
     - `'YOUR_NICK_NAME'` … ニックネームを入力
     - `'YOUR_PASSWORD'` … パスワードを入力
-2. PHPを配置して、Cronジョブ・Google Apps Scriptなどでこのファイルを定期的に実行してください。
+2. PHPを配置して、Cronジョブ・Google Apps Scriptなどでこのファイルに定期的にHTTP GETリクエストを送信してください。
  
 ## JSON Structure / JSONの構造
 ```JSON
